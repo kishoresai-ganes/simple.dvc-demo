@@ -1,14 +1,17 @@
 create a virtual environment
 
-'''conda create -n winequa python=3.7 -y'''
+'''bash
+conda create -n winequa python=3.7 -y'''
 
 activate the environment
 
-'''conda activate winequa'''
+'''bash
+conda activate winequa'''
 
 install the requirements.txt
 
-'''pip install -r requirements.txt'''
+'''bash
+pip install -r requirements.txt'''
 
 git init 
 
