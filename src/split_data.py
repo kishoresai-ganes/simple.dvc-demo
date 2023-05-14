@@ -14,8 +14,8 @@ def split_save(config_path):
 
     df=pd.read_csv(raw_data_path)
     train,test=train_test_split(df, test_size=split_size, random_state=random_state)
-    train.to_csv(train_path)
-    test.to_csv(test_path)
+    train.to_csv(train_path, sep=",", index=False)
+    test.to_csv(test_path, sep=",", index=False)
 
 if __name__=="__main__":
     args=argparse.ArgumentParser()
