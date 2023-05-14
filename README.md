@@ -18,13 +18,7 @@ pip install -r requirements.txt
 
 ```bash
 git init 
-```
-
-```bash
 dvc init
-```
-
-```bash
 dvc add data_given/winequality.csv
 ```
 
@@ -33,13 +27,16 @@ git add .
 ```
 
 ```bash
-git config --global user.name "kishore sai"
-```
-
-```bash
-git config --global user.email "kishoresai.ganes@tigeranalytics.com"
+git config --global user.name "Your name"
+git config --global user.email "Your email-id"
 ```
 
 ```bash
 git commit -m "first commit"
+```
+
+another way of git add and commit
+
+```bash
+git add . && git commit -m "first commit"
 ```
